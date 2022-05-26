@@ -82,5 +82,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %changelog
 * Sat Dec 04 2021 Frédéric Pierret (fepitre) <frederic.pierret@qubes-os.org> - 0.9.1-1
-	
 - Initial RPM packaging.
