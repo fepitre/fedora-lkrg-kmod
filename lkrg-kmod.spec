@@ -9,10 +9,10 @@ Release:        1%{?dist}
 
 Summary:        Kernel module for Linux Kernel Runtime Guard (LKRG)
 License:        GPLv2
-URL:            https://www.openwall.com/lkrg
+URL:            https://lkrg.org
 
-Source0:        https://www.openwall.com/lkrg/lkrg-%{version}.tar.gz
-Source1:        https://www.openwall.com/lkrg/lkrg-%{version}.tar.gz.sign
+Source0:        https://lkrg.org/download/lkrg-%{version}.tar.gz
+Source1:        https://lkrg.org/download/lkrg-%{version}.tar.gz.sign
 Source2:        lkrg-signing-key.asc
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
