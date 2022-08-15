@@ -4,7 +4,7 @@
 %endif
 
 Name:           lkrg-kmod
-Version:        0.9.3
+Version:        0.9.5
 Release:        1%{?dist}
 
 Summary:        Kernel module for Linux Kernel Runtime Guard (LKRG)
@@ -77,6 +77,9 @@ done
 
 
 %changelog
+* Mon Aug 15 2022 Frédéric Pierret (fepitre) <frederic.pierret@qubes-os.org> - 0.9.5-1
+- version 0.9.5-1.
+
 * Thu May 26 2022 Frédéric Pierret (fepitre) <frederic.pierret@qubes-os.org> - 0.9.3-1
 - version 0.9.3-1.
 
